@@ -1,0 +1,63 @@
+h1{
+    color: darkgreen;
+}
+h2{
+color: deepskyblue;
+}
+*{
+    background-color: lightseagreen;
+}
+ .header{
+display:flex;
+justify-content:space-between;
+ }
+
+.names{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: teal;
+    }
+.footer{
+    display: flex;
+   
+    justify-content: flex-end;
+    background-color: blue;
+}
+.photos p{
+position:absolute;
+top:50%;
+left:30%;
+color:  white;
+background-color: purple;
+font-size: 30px;
+opacity: 0;
+}
+
+.photos{
+    position: relative;
+}
+.photos:hover p{
+opacity: 1;
+
+}
+.photos:hover a{
+opacity: 0.5;
+
+}
+a:link{
+color: lime;
+    
+}
+a:visited{
+color: red;    
+}
+.header h1{
+    position:absolute;
+top: 20px;
+}
+.links a{
+    position:relative;
+    top: -160px;
+    left: 23in;   
+}
